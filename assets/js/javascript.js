@@ -7,8 +7,6 @@ function increment() {
   currentNumber = currentNumber + 1
   currentNumberWrapper.innerHTML = currentNumber
   validateColor()
-  buttonMore.disabled = false
-  buttonMore.classList.remove("cinza")
   if (currentNumber == 10) {
     buttonMore.disabled = true
     buttonMore.classList.add("cinza")
@@ -23,8 +21,6 @@ function decrement() {
   currentNumber = currentNumber - 1;
   currentNumberWrapper.innerHTML = currentNumber;
   validateColor()
-  buttonLess.disabled = false
-  buttonLess.classList.remove("cinza")
   if (currentNumber == -10) {
     buttonLess.disabled = true
     buttonLess.classList.add("cinza")
