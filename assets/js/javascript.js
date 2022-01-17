@@ -31,8 +31,8 @@ function decrement() {
   }
 }
 
-function validateColor () {
-  if (currentNumber  < 0) {
+function validateColor() {
+  if (currentNumber < 0) {
     currentNumberWrapper.style.color = "#ff0000"
   } else {
     currentNumberWrapper.style.color = "#000000"
